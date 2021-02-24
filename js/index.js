@@ -1,16 +1,14 @@
+//hamburger menu slide-opens on mobile
 $("#mobileCTA").on("click", function(){
     $("nav").slideToggle(150);
 });
 
-
+//hamburger icon changes to exit icon (= to x)
 $(document).ready(function(){
 	$("#mobileCTA").click(function(){
 		$(this).toggleClass("open");
 	});
 });
-
-// hero section text reveal
-
 
 //textblock next to cursor
 var travalert = document.querySelectorAll('.workGridArea span');
